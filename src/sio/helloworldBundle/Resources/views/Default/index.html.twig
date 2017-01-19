@@ -1,0 +1,19 @@
+<html>
+{{ render(controller('siohelloworldBundle:Default:header'))}}
+
+<div id="container-content">
+
+    <div id="content">
+        <h1 align="center"><b>Bienvenue sur ma page perso<b></h1>
+        <img src="{{ asset('bundles/siohelloworld/images/m2l.jpg') }}" width="200px"</img>
+
+
+        <link
+                href="{{ asset('bundles/siohelloworld/css/bluebusiness.css') }}"
+                rel="stylesheet" type="text/css"
+        />
+
+
+    </div> <!--CONTENT END -->
+    {{ render(controller('siohelloworldBundle:Default:footer'))}}
+</html>

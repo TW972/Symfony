@@ -1,0 +1,12 @@
+oc_user:
+    resource: "@OCUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+siohelloworld:
+    resource: "@siohelloworldBundle/Resources/config/routing.php"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

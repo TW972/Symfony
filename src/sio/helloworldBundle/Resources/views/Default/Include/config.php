@@ -1,0 +1,7 @@
+<?php
+
+session start();
+mysql_connect('localhost', 'root' , '') ;
+mysql_select_db('perso);
+
+?>
